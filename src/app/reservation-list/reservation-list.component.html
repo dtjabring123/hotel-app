@@ -8,6 +8,7 @@
     <button (click)="deleteReservation(reservation.id)">
       Delete Reservation
     </button>
+    <button [routerLink]="['/edit', reservation.id]">Edit Reservation</button>
   </li>
 </ul>
 
